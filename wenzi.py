@@ -246,7 +246,9 @@ class Game:
                     fen_ge_xian("敌人状态")
                     print(self.enemy_factory)
                 if choice == "3":
-                    print(self.player.bei_bao)
+                    bei_bao = True
+                    if bei_bao == True:
+                        print(self.player.bei_bao)
                 if choice == "4":
                     print("游戏结束！")
                     is_continue = False
