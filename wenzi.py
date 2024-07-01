@@ -256,3 +256,4 @@ if __name__ == "__main__":
     game = Game()
     game.start()
     input("按任意键退出")
+    
